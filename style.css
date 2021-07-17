@@ -1,0 +1,110 @@
+/* For Extreme Small Screens */
+body{
+    background-color: white;
+}
+
+.tablet_view{
+    display:none;
+}
+.desktop_view{
+    display : none;
+}
+.mobile_view{
+    display : none
+}
+.verysmall_view{
+    margin-top: 100px;
+    display : block;
+    justify-content: center;
+    text-align: center;
+}
+.verysmall_view h3{
+    font-size: 25px;
+    font-style: normal;
+}
+
+/* For Mobile Screens */
+@media (min-width : 346px)
+{
+body{
+    background-color: white;
+}
+.mobile_view{
+    margin-top: 100px;
+    display : block;
+    justify-content: center;
+    text-align: center;
+}
+.mobile_view h3{
+    font-size: 25px;
+    font-style: normal;
+
+}
+.tablet_view{
+    display:none;
+}
+.desktop_view{
+    display : none;
+}
+.verysmall_view{
+    display: none;
+}
+}
+
+
+/* For Tablet Screen */
+@media (min-width : 768px)
+{
+    body{
+        background-color: white;
+    }
+    .tablet_view{
+        margin-top: 100px;
+        display : block;
+        justify-content: center;
+        text-align: center;
+    }
+    .tablet_view h3{
+        font-size: 25px;
+        font-style: normal;
+    
+    }
+    .mobile_view{
+        display:none;
+    }
+    .desktop_view{
+        display : none;
+    }
+    .verysmall_view{
+        display: none;
+    }
+}
+
+
+/* For Desktop Screen */
+@media (min-width : 1024px)
+{
+    body{
+        background-color: white;
+    }
+    .desktop_view{
+        margin-top: 100px;
+        display : block;
+        justify-content: center;
+        text-align: center;
+    }
+    .desktop_view h3{
+        font-size: 25px;
+        font-style: normal;
+    
+    }
+    .mobile_view{
+        display:none;
+    }
+    .tablet_view{
+        display : none;
+    }
+    .verysmall_view{
+        display: none;
+    }
+}
